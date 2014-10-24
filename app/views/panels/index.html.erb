@@ -1,0 +1,8 @@
+<h2>You are in your panel</h2>
+<h4>You can:</h4>
+<ul>
+<li><%= link_to "add", new_quote_path %> a new quote</li>
+<li>manage <%= link_to "quotes you added", { controller: 'panels', action: 'my_quotes' } %></li>
+<li><%= link_to "your stats", panel_stats_path %></li>
+<li><%= link_to "edit account", edit_user_path(current_user.id) %> details</li>
+</ul>

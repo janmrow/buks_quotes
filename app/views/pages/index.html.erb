@@ -1,0 +1,24 @@
+
+
+
+
+
+
+<% if current_user %>
+<h2>Logged</h2>
+<p>Go to your: <%= link_to "panel", panel_path %></p>
+
+<% else %>
+
+
+<h1>Hello guest</h1>
+<p><%=link_to "Create a new account", signup_path %> to add quotes and manage them.</p>
+<% end %>
+
+<hr>
+
+<h3>All quotes in database:</h3>
+
+<% @quotes.each do |quote| %>
+  <ul><li>"<%= quote.content %>"</li></ul>
+<% end %>

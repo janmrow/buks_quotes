@@ -1,0 +1,8 @@
+<h3>Add a new quote</h3>
+
+<%= form_for @quote do |f| %>
+  <%= f.label :content %>
+  <%= f.text_area :content %>
+
+  <%= f.submit %>
+<% end %>

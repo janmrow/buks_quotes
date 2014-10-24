@@ -1,0 +1,8 @@
+<h3>Quotes you've added:</h3>
+<% @user_quotes.each do |quote| %>
+  <ul><li><%= quote.content %> | 
+  <%= link_to "edit", quote, { controller: 'quotes', action: 'edit' } %>
+   | <%= link_to "delete", quote, method: 'delete' %></li></ul>
+<% end %>
+
+<%= link_to "&larr; panel".html_safe, panel_path %> 
