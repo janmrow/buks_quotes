@@ -1,6 +1,6 @@
 == README
 
-My own pet project. This is the quotes base.
+My own pet project. This is the quotes base. The idea is ony quotes by Charles Bukowski (with photos).
 You can add, edit, delete quotes. User can voting. There are two types of users: normal user and admin.
 
 Project is not finished.
