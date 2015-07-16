@@ -1,6 +1,6 @@
 == README
 
-To do:
+My own pet project. This is the quotes base.
+You can add, edit, delete quotes. User can voting. There are two types of users: normal user and admin.
 
-- like button
-- 
+Project is not finished.
